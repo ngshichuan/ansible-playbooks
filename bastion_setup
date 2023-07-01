@@ -1,0 +1,8 @@
+# AMI id
+bastion_ami: ami-06b79cf2aee0d5c92
+
+# Region Name
+region: "ap-southeast-1"
+
+# My Ip address
+MYIP: 116.87.20.95/32
