@@ -160,7 +160,7 @@
         vpc_subnet_id: "{{prisub1id}}"
       register: db01_out
     - debug:
-        var: db01_out.tagged_instances[0].id
+        var: "{{db01_out.tagged_instances[0].id}}"
     - local_action: 
       module: ec2_elb_lb
       region: "region"
