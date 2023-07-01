@@ -140,4 +140,17 @@
         - pubRT_out.route_table.id
         - natgateway_out.nat_gateway_id
         - priRT_out.route_table.id
+    - set_fact:
+        vpcid: "{{ vpcout.vpc.id }}"
+        pubsub1id: "{{ pubsub1_out.subnet.id }}"
+        pubsub2id: "{{ pubsub2_out.subnet.id }}"
+        pubsub3id: "{{ pubsub3_out.subnet.id }}"
+        prisub1id: "{{ prisub1_out.subnet.id }}"
+        prisub2id: "{{ prisub2_out.subnet.id }}"
+        prisub3id: "{{ prisub3_out.subnet.id }}"
+        igwid: "{{ igw_out.gateway_id }}"
+        pubRTid: "{{ pubRT_out.route_table.id }}"
+        NATGWid: "{{ natgateway_out.nat_gateway_id }}"
+        privRTid: "{{ priRT_out.route_table.id }}"
+        cacheable: yes 
 
