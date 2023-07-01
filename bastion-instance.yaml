@@ -33,7 +33,7 @@
       register: BastionSG_out
     - name: Create Bastion host
       ec2:
-        key_name: sg_key
+        key_name: sg-key
         region: "{{region}}"
         instance_type: t2.micro
         image: "{{bastion_ami}}"
