@@ -18,7 +18,10 @@
         repo: 'https://github.com/ngshichuan/ansible-playbooks.git'
         dest: ./Vprofile-repo
         version: ansible_playbooks
+        accept_hostkey: yes
+      become: no
       register: git_status
+      
 
     - name: mvn install command to build artifact
       command: "mvn install"
