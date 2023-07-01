@@ -4,7 +4,7 @@ app01   ansible_host=172.20.4.191
 rmq01   ansible_host=172.20.4.208
 mc01    ansible_host=172.20.4.107
 db01    ansible_host=172.20.4.17
-cntl    ansible_host= 127.0.0.1 ansible_connection=local
+cntl    ansible_host=127.0.0.1 ansible_connection=local
 
 [websrvgrp]
 web01
