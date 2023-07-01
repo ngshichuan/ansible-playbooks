@@ -1,3 +1,4 @@
+region: ap-southeast-1
 vpcid: vpc-018fdc9b0667591bd
 pubsub1id: subnet-02841267b37b121e5
 pubsub2id: subnet-00330c3ef999c2705
