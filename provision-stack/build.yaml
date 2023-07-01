@@ -17,6 +17,7 @@
       git:
         repo: 'git@github.com:ngshichuan/ansible-playbooks.git'
         dest: ./Vprofile-repo
+        accept_hostkey: yes
         version: ansible_playbooks
       register: git_status
 
