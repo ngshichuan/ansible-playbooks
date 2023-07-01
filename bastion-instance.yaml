@@ -32,7 +32,7 @@
             cidr_ip: "{{MYIP}}"
       register: BastionSG_out
     - name: Create Bastion host
-      ec2:
+      ec2_instance:
         key_name: sg-key
         region: "{{region}}"
         instance_type: t2.micro
