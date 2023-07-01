@@ -161,8 +161,8 @@
       register: db01_out
     - debug:
         var: db01_out.tagged_instances[0].id
-    - local_action:
-      module: "vprofile-elb"
+    - local_action: 
+      module: ec2_elb_lb
       region: "region"
       state: present
       instance_ids:
