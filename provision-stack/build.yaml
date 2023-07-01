@@ -15,9 +15,9 @@
 
     - name: Clone source code from github
       git:
-        repo: 'https://github.com/ngshichuan/ansible-playbooks.git'
+        repo: 'https://github.com/devopshydclub/vprofile-project.git'
         dest: ./Vprofile-repo
-        version: main
+        version: vp-rem
       register: git_status
       
 
